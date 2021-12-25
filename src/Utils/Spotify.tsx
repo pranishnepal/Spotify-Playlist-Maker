@@ -1,6 +1,7 @@
 import { SpotifyResponse } from "../Components/App/App";
 
 const clientID: string = process.env.REACT_APP_SPOTIFY_CLIENT_ID!;
+/* Change the URI below to localhost:3000 for dev. However, make sure that localhost is also listed as a URI on your spotify API settings*/
 const redirectURI: string = "https://admiring-engelbart-996c28.netlify.app";
 let sessionExpirationTime: number;
 let userAccessToken: any;
