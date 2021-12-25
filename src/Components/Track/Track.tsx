@@ -18,7 +18,7 @@ export class Track extends React.Component<TrackProps> {
   };
 
   render() {
-    const { id, name, artist, album, uri } = this.props.track;
+    const { name, artist, album } = this.props.track;
     const { isRemoval } = this.props;
 
     if (isRemoval) {

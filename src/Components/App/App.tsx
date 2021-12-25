@@ -64,7 +64,7 @@ class App extends React.Component<AppProps, AppState> {
       (currTrack) => currTrack.id === track.id
     );
 
-    if (trackIdx != -1) {
+    if (trackIdx !== -1) {
       currPlayList.splice(trackIdx, 1);
       this.setState({ playListTracks: currPlayList });
     }
@@ -81,6 +81,7 @@ class App extends React.Component<AppProps, AppState> {
     const currPlayList = this.state.playListTracks;
     let userSelectedTracksURI: string[] = [];
 
+    // eslint-disable-next-line array-callback-return
     currPlayList.map((currTrack) => {
       userSelectedTracksURI.push(currTrack.uri);
     });

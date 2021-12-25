@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler } from "react";
+import React from "react";
 import { SpotifyResponse } from "../App/App";
 import { TrackList } from "../TrackList/TrackList";
 import "./Playlist.css";
