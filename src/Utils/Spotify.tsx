@@ -1,7 +1,7 @@
 import { SpotifyResponse } from "../Components/App/App";
 
 const clientID: string = process.env.REACT_APP_SPOTIFY_CLIENT_ID!;
-const redirectURI: string = "admiring-engelbart-996c28.netlify.app";
+const redirectURI: string = "https://admiring-engelbart-996c28.netlify.app";
 let sessionExpirationTime: number;
 let userAccessToken: any;
 
