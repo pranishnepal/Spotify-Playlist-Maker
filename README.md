@@ -1,3 +1,14 @@
+# Demo
+
+https://user-images.githubusercontent.com/64367206/148627016-456d36b1-0695-42f6-b3be-5576a9330664.mp4
+
+
+# Remember:
+
+The new Spotify API requires accounts to be 'allowed' to use their API in development mode. Any other accounts other than the developer's would have to be 'allowed' before using the app to create a playlist since it is run in development mode.
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
